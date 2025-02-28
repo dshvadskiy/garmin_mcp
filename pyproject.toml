@@ -1,0 +1,11 @@
+[project]
+name = "garmin-mcp"
+version = "0.1.0"
+description = "Garmin Connect MCP Server"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "garminconnect>=0.2.25",
+    "mcp[cli]>=1.3.0",
+    "readchar>=4.2.1",
+]
