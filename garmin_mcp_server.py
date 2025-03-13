@@ -108,7 +108,7 @@ def fetch_sleep_data(date: str) -> dict:
     return api.get_sleep_data(date)
 
 @mcp.tool()
-def fetch_sleps_data(date_from: str, date_to: str) -> dict:
+def fetch_steps_data(date_from: str, date_to: str) -> dict:
     """Returns steps data for the for the given date range
     Args:
         date_from: str - start date in format YYYY-MM-DD
